@@ -39,7 +39,6 @@ namespace WebCafe.Entityes
 
         public static string Modificar(string code, Usuarios usuario)
         {
-
             return "";
             //try
             //{

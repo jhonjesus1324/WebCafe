@@ -1,4 +1,6 @@
-﻿namespace WebCafe.Entityes
+﻿using System;
+
+namespace WebCafe.Entityes
 {
     public class Usuarios
     {
@@ -7,6 +9,7 @@
         public string Telefone { get; set; }
         public string Email { get; set; }
         public string Senha { get; set; }
+        public DateTime Aniversario { get; set; }
     }
 }
 

@@ -26,11 +26,13 @@ namespace WebCafe.Controllers
             var usuarios = UsuarioRepository.GetList();
             return usuarios;
         }
-        [HttpPut]
+
+        //[HttpPut]
         //public Usuarios ModificarUsuarios(string Code)
         //{
         //    return;
         //}
+
         [HttpDelete]
         public string DeletarUsuarios(string code)
         {
